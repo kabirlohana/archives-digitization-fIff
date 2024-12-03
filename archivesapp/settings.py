@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 INSTALLED_APPS += ['django_extensions']
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -70,7 +71,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'archivesapp.wsgi.application'
 
-
+SHELL_PLUS = "ipython"
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
